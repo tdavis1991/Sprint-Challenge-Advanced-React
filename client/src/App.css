@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+.container {
+  text-align: center;
+}
+.players-cards {
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center
+}
+.player-container {
+  display: flex;
+  flex-flow: wrap;
+}

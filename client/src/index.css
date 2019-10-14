@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.players-cards {
+  border: 2px solid black;
+  margin: 15px;
+  border-radius: 10px;
+}
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+}
