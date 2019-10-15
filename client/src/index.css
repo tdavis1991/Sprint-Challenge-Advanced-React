@@ -19,4 +19,10 @@ code {
 .dark-mode {
   color: #fff;
   background-color: #313843;
+  border: white;
+}
+.dark-mode-div {
+  color: #fff;
+  background-color: #313843;
+  border: white;
 }
