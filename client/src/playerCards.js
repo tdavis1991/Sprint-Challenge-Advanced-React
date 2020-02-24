@@ -1,19 +1,14 @@
-import React, { Components, Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class PlayerCard extends Component {
-    // constructor() {
-    //     super()
-    // }
-    render() {
+const PlayerCard = (props) => {
         return (
-            <div key={this.props.key} className= "players-cards">
-                <h3>{this.props.name}</h3>
-                <p>{this.props.country}</p>
-                <p>{this.props.searches}</p>
+            <div key={props.key} className= "players-cards">
+                <h3>Name: {props.name}</h3>
+                <p>Country: {props.country}</p>
+                <p>Searches: {props.searches}</p>
             </div>
         )
-    }
 }
 
 export default PlayerCard;

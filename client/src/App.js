@@ -8,7 +8,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      players: [],
+      players: []
     }
   }
 
@@ -31,7 +31,7 @@ class App extends Component {
     console.log(this.state.players)
     return ( 
       <div className="container">
-        <h1>Women's World Cup</h1>
+        <h1 data-testId='header'>Women's World Cup</h1>
         <DarkButton />
         <div className="player-container">
           {this.state.players.map((list, index) => (
